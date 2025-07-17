@@ -60,7 +60,7 @@ public enum ChestChangerType
     {
         this.item = new ItemChestChanger(this);
 
-        this.item.setRegistryName(this.itemName);
+        this.item.setRegistryName("ironchest", this.itemName);
 
         itemRegistry.register(this.item);
 
