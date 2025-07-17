@@ -60,7 +60,7 @@ public enum ShulkerBoxChangerType
     {
         this.item = new ItemShulkerBoxChanger(this);
 
-        this.item.setRegistryName(this.itemName);
+        this.item.setRegistryName("ironchest", this.itemName);
 
         itemRegistry.register(this.item);
 
